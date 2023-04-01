@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 3000px; 
+}
+.first{
+    height: 100vh;
+    background-color: rgba(10, 38, 64, 1);
+    padding-top: 56px;
+    padding: 0 100px;
+    padding-top: 56px;
+}
+.first nav{
+    width: 1200px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.first nav ul{
+    display: flex;
+    align-items: center;
+}
+.first nav ul li{
+    color: white;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .3s;
+}
+.first nav ul li:hover{
+    cursor: pointer;
+    font-size: 17px;
+}
+.first .Log-in{
+    width: 130px;
+    height: 40px;
+    background: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.first section{
+    width: 1200px;
+    height: 425px;
+    margin-top: 64px;
+    display: flex;
+}
+.first section .left{
+    width: 706px;
+    height: 100%;
+    padding: 56px 0 ;
+}
+.first section .left h1{
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+}
+.first section .left p{
+    font-weight: 400;
+    font-size: 16px;
+    color: lightgray;
+    margin-top: 17px;
+}
+.first section .left .btns-div{
+    display: flex;
+    margin-top: 50px;
+
+}
+.first section .left .buyn{
+    padding: 16px 56px 16px 56px;
+    border-radius: 56px;
+    background: none;
+    border: 2px solid rgba(105, 230, 166, 1);
+    color: rgba(105, 230, 166, 1);
+    font-weight: 700;
+    font-size: 20px;
+}
+.first section .left .buyn:hover{
+    background: rgba(105, 230, 166, 1);
+    color: rgba(10, 38, 64, 1);
+}
+.first section .left .expl{
+    padding: 16px 56px 16px 56px;
+    border-radius: 56px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 24px;
+}
+.first section .left .expl:hover{
+    color: rgba(10, 38, 64, 1);
+    background: white;
+}
+.first section .right{
+    width: 494px;
+    height: 100%;
+}
+.first section .right .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#ndImg{
+    width: 192px;
+    height: 165px;
+    border-radius: 15px;
+    background: #374d62;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+#special-id{
+    padding-left: 8px;
+}
+.headText{
+    width: 100%;
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headTextPad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headTextPad h1{
+    font-weight: 400;
+    font-size: 48px;
+}
+.headText span{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(119, 119, 119, 1);
+    margin-bottom: 12px;
+}
+.second{
+    padding: 0 170px;
+
+}
+.second section{
+    width: 100%;
+    margin-top: 96px;
+    display: flex;
+}
+.card{
+    margin-right: 100px;
+}
+.card .textPad h1{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.card .textPad p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #374d62;
+}
+.exploreBtn{
+    width: 165px;
+    display: flex;
+    border-bottom: 1px solid #000;
+    margin-top: 28px;
+    padding-bottom: 10px;
+}
+.exploreBtn h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(10, 38, 64, 1);
+}
+.exploreBtn img{
+    margin-left: 12px;
+}
+.card-1{
+    width: 100%;
+    margin-top: 185px;
+    display: flex;
+}
+.card-1 .imgBox{
+    position: relative;
+}
+.imgBox #backImg{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+.card-1 .textPad{
+    margin-top: 66px;
+    margin-left: 150px;
+}
+.card-1 .textPad h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+.card-1 .textPad ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.card-1 .textPad ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.card-1 .textPad ul li p{
+    margin-left: 27px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-1 .textPad button{
+    padding: 16px 56px 16px 56px;
+    border-radius: 56px;
+    background: rgba(10, 38, 64, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    transition: .2s;
+}
+.card-1 .textPad button:hover{
+    color: rgba(10, 38, 64, 1);
+    background: white;
+    cursor: pointer;
+}
+.card-2{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-2 .text-pad{
+    margin-top: 150px;
+}
+.card-2 .text-pad h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+.card-2 .text-pad .btns{
+    margin-top: 64px;
+}
+#salama{
+    background: #0b2641;
+}
+#salama span{
+    color: white;
+}
+.card-2 .text-pad .btns button{
+    padding: 16px 53px 16px 20px;
+    display: flex;
+    background-color: white;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    margin: 30px 0;
+}
+.card-2 .text-pad .btns button span{
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0b2641;
+}
+footer{
+    width: 100%;
+    margin-top: 400px;
+    padding: 100px 100px 176px 130px;
+    display: flex;
+}
+footer .first-cont{
+    display: flex;
+    flex-direction: column;
+}
+footer .first-cont .headerC{
+    display: flex;
+}
+footer .first-cont .headerC h1{
+    font-weight: 700;
+    font-size: 43px;
+    color: rgba(10, 38, 64, 1);
+}
+footer .first-cont p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(119, 119, 119, 1);
+    margin-top: 40px;
+}
+footer .first-cont span{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(119, 119, 119, 1);
+    margin-top: 64px;
+}
+footer .second-cont{
+    margin-left: 180px;
+    display: flex;
+    gap: 150px;
+}
+footer .second-cont .column{
+    display: flex;
+    flex-direction: column;
+}
+footer .second-cont .column h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 18px;
+}
+footer .second-cont .column span{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(119, 119, 119, 1);
+    line-height: 32px;
+    margin: 18px 0;
+    transition: .2s;
+}
+footer .second-cont .column #speciel div{
+    padding: 0 14px;
+    background: rgba(101, 228, 163, 1);
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+footer .second-cont .column span div h1{
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px solid black;
+}
+#speciel{
+    display: flex;
+}
+footer .second-cont .column span:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
